@@ -1,0 +1,15 @@
+schema_version = "0.1.0"
+id = "flipbook_toolkit"
+name = "Flipbook Toolkit"
+version = "0.0.1"
+tagline = "Author Real-Time Visual-Effects Assets"
+maintainer = "Community"
+type = "add-on"
+tags = ["Bake"]
+blender_version_min = "4.2.0"
+license = ["SPDX:MIT", "SPDX:GPL-2.0-or-later"]
+copyright = ["2024 Community"]
+platforms = ["linux-x64"]
+wheels = [
+	"./wheels/opencv_python_headless-4.10.0.84-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+]
